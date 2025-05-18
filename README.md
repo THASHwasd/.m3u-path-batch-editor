@@ -32,4 +32,4 @@ Before running the script, open `playlist_converter.py` and **edit these lines**
 
 ```python
 input_m3u = r""  # e.g., r"C:\Users\You\Downloads\my_playlist.m3u"
-phone_music_dir = r""  # e.g., r"/storage/emulated/0/YMusic/"
+phone_music_dir = r""  # e.g., r"/storage/emulated/0/Music/"
