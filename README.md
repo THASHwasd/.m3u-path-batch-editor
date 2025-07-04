@@ -31,5 +31,6 @@ A lightweight Python script to convert `.m3u` playlist paths from mobile device 
 Before running the script, open `playlist_converter.py` and **edit these lines** near the top:
 
 ```python
-input_m3u = r""  # e.g., r"C:\Users\You\Downloads\my_playlist.m3u"
-phone_music_dir = r""  # e.g., r"/storage/emulated/0/Music/"
+input_m3u = r"Z:\PLACE HOLDER"   # input .m3u file / text file to change directory of     [LINE 6]
+phone_music_dir = "E.G. /storage/emulated/0/Music/Songs/"      # Starting directory of input file to change  [LINE 7]
+pc_dir = "Z:/".strip()  # the directory you want to change the phone_music_dir with (e.g. Z:/)   [LINE 11]
