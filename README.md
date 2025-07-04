@@ -11,7 +11,7 @@ A lightweight Python script to convert `.m3u` playlist paths from mobile device 
 
 - ✅ Converts old mobile music paths (e.g. `/storage/emulated/0/Music/`) to PC-friendly paths (e.g. `Z:/Music/`)
 - 🔍 Checks if each referenced file actually exists on your PC
-- 📝 Saves a new `.m3u` playlist with today’s date appended
+- 📝 Saves a new `.m3u` playlist with today’s date appended in the same location as the input file
 - 💡 Designed to be minimal and safe — does **not modify** original playlists
 - 🖥️ Works in any modern Python 3 environment (Windows, macOS, Linux)
 
